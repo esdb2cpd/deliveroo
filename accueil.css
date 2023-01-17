@@ -1,0 +1,32 @@
+.topBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5vh;
+}
+
+.logoVelo{
+    background-color: rgba(128, 128, 128, 0.385);
+    border-radius: 50%;
+    height: 5vh;
+    width: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoVelo>i{
+    font-size: 280%;
+}
+.chevron,.user{
+    color: teal;
+}
+.user{
+    font-size: 2rem;
+}
+.heure{
+    font-weight: lighter;
+}
+.texteAdresse{
+    font-weight: bolder;
+}
